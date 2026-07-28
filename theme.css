@@ -1,0 +1,190 @@
+body{
+    transition:0.4s;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body.light-mode{
+    background:#ffffff;
+    color:#000;
+}
+
+body.light-mode nav a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0;
+    height:3px;
+    background:#000810;
+    transition:0.3s;
+}
+body.light-mode nav a:hover::after{
+    width:100%;
+}
+body.dark-mode nav a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0;
+    height:3px;
+    background:#fcfdfd;
+    transition:0.3s;
+}
+body.dark-mode nav a:hover::after{
+    width:100%;
+}
+/* For Dark Mode */
+
+body.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+body.dark-mode .header,
+body.dark-mode .nav{
+    background:#1d1d1d;
+}
+
+body.dark-mode .main{
+    background:#222;
+    color:white;
+}
+
+body.dark-mode nav a{
+    color:white;
+}
+
+body.dark-mode .subtitle,
+body.dark-mode .title span{
+    color:#4da6ff;
+}
+
+body.dark-mode .theme{
+    background:#333;
+    color:white;
+}
+/* For Blue Mode */
+
+body.blue-mode{
+    background:#0A192F;
+    color:#EAF6FF;
+}
+
+body.blue-mode .header,
+body.blue-mode .nav{
+    background:#071120;
+}
+
+body.blue-mode .main{
+    background:#0A192F;
+    color:#EAF6FF;
+}
+
+body.blue-mode nav a{
+    color:white;
+}
+
+body.blue-mode .subtitle,
+body.blue-mode .title span{
+    color:#38BDF8;
+}
+
+body.blue-mode .theme{
+    background:#071120;
+    color:white;
+}
+
+/* For Matrix Mode */
+body.matrix-mode{
+    background:black;
+    color:#00FF41;
+    font-family:Consolas, monospace;
+}
+
+body.matrix-mode .header,
+body.matrix-mode .nav{
+    background:#001100;
+}
+
+body.matrix-mode .main{
+    background:black;
+    color:#00FF41;
+}
+
+body.matrix-mode nav a{
+    color:#00FF41;
+}
+
+body.matrix-mode .subtitle,
+body.matrix-mode .title span{
+    color:#00FF41;
+}
+
+body.matrix-mode .theme{
+    background:black;
+    color:#00FF41;
+    border:1px solid #00FF41;
+}
+
+body.dark-mode .stats
+{
+    background:#1d1d1d;
+}
+body.blue-mode .stats{
+    background:#071120;
+}
+body.matrix-mode .stats{
+    background:black;
+    color:#00FF41;
+   
+}
+
+body.dark-mode .last
+{
+    background:#1d1d1d;
+}
+body.blue-mode .last{
+    background:#071120;
+}
+body.matrix-mode .last{
+    background:black;
+    color:#00FF41;
+   
+}
+/* For Index FIleeeee */
+/* For Service Fileee */
+body.light-mode .intro{
+background: white;
+    
+}
+body.dark-mode .intro
+{
+    background:#353232;
+}
+body.blue-mode .intro{
+    background: #13233d;
+}
+body.matrix-mode .intro{
+    background:black;
+    color:#00FF41;
+   
+}
+/* for password block */
+body.light-mode #password{
+background: white;
+    
+}
+body.dark-mode #password
+{
+    background:#353232;
+}
+body.blue-mode #password{
+    background: #13233d;
+    color: white;
+}
+body.matrix-mode #password{
+    background:black;
+    color:#00FF41;
+   
+}
+

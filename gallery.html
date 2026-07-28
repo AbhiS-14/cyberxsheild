@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery(CyberXSheild)</title>
+    <link rel="stylesheet" href="./css/gallery.css">
+     <link rel="icon" href="./image and logos/(CyberXSheild) logo.png">
+    
+</head>
+<body>
+<div class="header2">
+
+        <div class="left1">
+            <div>🛡️ Stay Safe. Stay Secure. Stay Aware.</div>
+        </div>
+
+        <div class="right1">
+
+            <div>📞 +91 9969021728</div>
+
+            <div>✉️ support@cybershield.com</div>
+
+            <select class="theme" onchange="changetheme()">
+
+                <option value="dark">🌙 Dark</option>
+                <option value="blue">🔵 Cyber Blue</option>
+                <option value="light">☀️ Light</option>
+                <option value="matrix">🟢 Matrix</option>
+
+            </select>
+
+        </div>
+
+    </div>
+<section class="gallery-section">
+
+    <h1>Cyber Security Gallery</h1>
+    <p class="sub">
+        Explore cyber threats, security tips, awareness posters and tools.
+    </p>
+
+    <!-- Filter Buttons -->
+
+    <div class="buttons">
+        <button class="active" onclick="filterSelection('all')">All</button>
+        <button onclick="filterSelection('threat')">Threats</button>
+        <button onclick="filterSelection('tips')">Tips</button>
+        <button onclick="filterSelection('poster')">Posters</button>
+        <button onclick="filterSelection('tools')">Tools</button>
+       <button>  <a href="./index.html" style="text-decoration: none; color: white;"> 🏠 Go Home</a></button>
+    </div>
+
+    <!-- Gallery -->
+
+    <div class="gallery">
+
+        <div class="card threat">
+            <img src="./image and logos/gallery1.png" onclick="openImage(this.src)">
+            <h3>Phishing Attack</h3>
+            <p>Fake emails used to steal information.</p>
+        </div>
+
+        <div class="card threat">
+            <img src="./image and logos/gallery2.png" onclick="openImage(this.src)">
+            <h3>Ransomware</h3>
+            <p>Encrypts your files and demands payment.</p>
+        </div>
+
+        <div class="card threat">
+            <img src="./image and logos/gallery3.png" onclick="openImage(this.src)">
+            <h3>Malware</h3>
+            <p>Software that damages your device.</p>
+        </div>
+
+        <div class="card tips">
+            <img src="./image and logos/gallery4.png" onclick="openImage(this.src)">
+            <h3>Strong Password</h3>
+            <p>Use uppercase, lowercase, numbers and symbols.</p>
+        </div>
+
+        <div class="card tips">
+            <img src="./image and logos/gallery5.png" onclick="openImage(this.src)">
+            <h3>Enable 2FA</h3>
+            <p>Add an extra layer of security.</p>
+        </div>
+
+        <div class="card tips">
+            <img src="./image and logos/gallery7.png" onclick="openImage(this.src)">
+            <h3>Update Software</h3>
+            <p>Keep your devices protected.</p>
+        </div>
+
+        <div class="card poster">
+            <img src="./image and logos/gallery6.png" onclick="openImage(this.src)">
+            <h3>Think Before You Click</h3>
+        </div>
+
+        <div class="card poster">
+            <img src="./image and logos/gallery8.png" onclick="openImage(this.src)">
+            <h3>Stay Safe Online</h3>
+        </div>
+
+        <div class="card poster">
+            <img src="./image and logos/gallery9.png" onclick="openImage(this.src)">
+            <h3>Cyber Hygiene</h3>
+        </div>
+
+        <div class="card tools">
+            <img src="./image and logos/gallery10.png" onclick="openImage(this.src)">
+            <h3>Firewall</h3>
+        </div>
+
+        <div class="card tools">
+            <img src="./image and logos/gallery11.png" onclick="openImage(this.src)">
+            <h3>VPN</h3>
+        </div>
+
+        <div class="card tools">
+            <img src="./image and logos/gallery12.png "onclick="openImage(this.src)">
+            <h3>Antivirus</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="./java/gallery.js"></script>
+<script src="./java/theme.js"></script>
+
+</body>
+</html>

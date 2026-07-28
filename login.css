@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #102b54;
+  
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:450px;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    margin-top: 50px;
+}
+
+h1{
+    text-align:center;
+    color:#01050c;
+    margin-bottom:25px;
+}
+
+label{
+    font-weight:bold;
+    color:#333;
+    display:block;
+    margin-bottom:5px;
+}
+
+input,
+select{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+    transition:.3s;
+}
+
+
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#1e3c72;
+    color:white;
+    font-size:17px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#16315d;
+    transform:translateY(-5px);
+}
+
+a{
+    text-decoration:none;
+    color:#000000;
+    font-weight:bold;
+    margin-right:20px;
+}
+
+a:hover{
+    color:#ff6600;
+}
+
+#Profile p{
+    font-size:17px;
+    margin:12px 0;
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
+
+#Profile b{
+    color:#000000;
+}
+
+#Profile button{
+    margin-top:20px;
+    background:#dc3545;
+}
+
+#Profile button:hover{
+    background:#b52a37;
+}
+

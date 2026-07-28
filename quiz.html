@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz(CyberXSheild)</title>
+    <link rel="stylesheet" href="./css/quizres.css">
+     <link rel="icon" href="./image and logos/(CyberXSheild) logo.png">
+</head>
+<body>
+   <h1> <center> Quiz</center></h1>
+    
+<div class="question">
+    <h2>1. What is a strong password?</h2>
+
+    <button onclick="check(false)">12345678</button><br><br>
+    <button onclick="check(false)">password</button><br><br>
+    <button onclick="check(true)">abcd@2026#</button><br><br>
+    <button onclick="check(false)">abc123</button><br><br>
+
+    <button onclick="next()" class="next">Next</button>
+</div>
+
+<div class="question" style="display:none;">
+    <h2>2. What does HTTPS stand for?</h2>
+
+    <button onclick="check(true)">HyperText Transfer Protocol Secure</button><br><br>
+    <button onclick="check(false)">HyperText Transfer Public Server</button><br><br>
+    <button onclick="check(false)">High Transfer Protocol Secure</button><br><br>
+    <button onclick="check(false)">Hyper Transfer Text System</button><br><br>
+
+    <button onclick="next()"class="next">Next</button>
+</div>
+
+<div class="question" style="display:none;">
+    <h2>3. Which of the following is an example of phishing?</h2>
+
+    <button onclick="check(true)">Fake email asking for your bank password</button><br><br>
+    <button onclick="check(false)">Updating your phone</button><br><br>
+    <button onclick="check(false)">Installing antivirus</button><br><br>
+    <button onclick="check(false)">Changing password</button><br><br>
+
+    <button onclick="next()"class="next">Next</button>
+</div>
+
+      <div class="question" style="display:none;">
+    <h2>4. Which of the following should you never share?</h2>
+
+    <button onclick="check(false)">Username</button><br><br>
+    <button onclick="check(true)">OTP</button><br><br>
+    <button onclick="check(false)">Nickname</button><br><br>
+    <button onclick="check(false)">Hobby</button><br><br>
+
+    <button onclick="next()"class="next">Next</button>
+</div>
+
+<div class="question" style="display:none;">
+    <h2>5. Which software protects your computer from viruses?</h2>
+
+    <button onclick="check(false)">MS Word</button><br><br>
+    <button onclick="check(true)">Antivirus</button><br><br>
+    <button onclick="check(false)">Paint</button><br><br>
+    <button onclick="check(false)">Calculator</button><br><br>
+
+    <button onclick="next()"class="next">Next</button>
+</div>
+
+<div class="question" style="display:none;">
+    <h2>6. What is malware?</h2>
+
+    <button onclick="check(false)">Hardware</button><br><br>
+    <button onclick="check(true)">Harmful software</button><br><br>
+    <button onclick="check(false)">Web Browser</button><br><br>
+    <button onclick="check(false)">Search Engine</button><br><br>
+
+    <button onclick="next()"class="next">Next</button>
+</div>
+
+<div class="question" style="display:none;">
+    <h2>7. Which of the following is malware?</h2>
+
+    <button onclick="check(false)">Keyboard</button><br><br>
+    <button onclick="check(false)">Monitor</button><br><br>
+    <button onclick="check(true)">Trojan</button><br><br>
+    <button onclick="check(false)">Printer</button><br><br>
+
+    <button onclick="next()"class="next">Next</button>
+</div>
+
+<div class="question" style="display:none;">
+    <h2>8. What is the safest password?</h2>
+
+    <button onclick="check(false)">123456</button><br><br>
+    <button onclick="check(false)">password</button><br><br>
+    <button onclick="check(true)">MyDog@2026!</button><br><br>
+    <button onclick="check(false)">qwerty</button><br><br>
+
+    <button onclick="next()"class="next">Next</button>
+</div>
+
+<div class="question" style="display:none;">
+    <h2>9. Why should you update your software?</h2>
+
+    <button onclick="check(false)">To slow the computer</button><br><br>
+    <button onclick="check(true)">To improve security and fix bugs</button><br><br>
+    <button onclick="check(false)">To waste time</button><br><br>
+    <button onclick="check(false)">No reason</button><br><br>
+
+    <button onclick="next()"class="next">Next</button>
+</div>
+
+<div class="question" style="display:none;">
+    <h2>10. What does 2FA stand for?</h2>
+
+    <button onclick="check(true)">Two-Factor Authentication</button><br><br>
+    <button onclick="check(false)">Two Fast Access</button><br><br>
+    <button onclick="check(false)">Two File Access</button><br><br>
+    <button onclick="check(false)">Two Form Authentication</button><br><br>
+   <button onclick="next()"class="next">Finish</button>
+</div>
+    <h2 id="result" style="display:none;"></h2> 
+<button
+    id="homeBtn"
+    onclick="window.location.href='index.html'"
+    style="display:none; width:30%; margin-left:35%; background-color:green; height:50px; margin-top: 100px;color: white; font-size: 18px;">
+    🏠 Go Home
+</button>
+
+</body>
+<script src="./java/quizans.js"></script>
+</html>

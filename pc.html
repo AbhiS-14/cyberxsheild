@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Checkers(CyberXSheild)</title>
+    <link rel="stylesheet" href="./css/pc.css">
+     <link rel="icon" href="./image and logos/(CyberXSheild) logo.png">
+</head>
+<body>
+    <h2 class="heading">🔐 Password Checkers</h2>
+
+    <div style="display: flex;flex-direction: column;margin-top: 50px;">
+        <input type="password" placeholder="Password" oninput="check()" id="password">
+        <div id="len"> </div>
+             <div id="upp"></div>
+                  <div id="low"></div>
+                       <div id="no"></div>
+                            <div id="spe"></div>
+                            Password Rating Out of 5 :<div id="score"></div>
+                              <button   onclick="window.location.href='index.html'"
+    style="width: 30%; margin-left: 35%;height: 40px;margin-top: 100px; 
+    background-color: rgb(46, 46, 154); color: white;font-size: 18px;"
+    > 🏠 Go Home</button>
+    
+</body>
+<script src="./java/password.js"></script>
+</html>

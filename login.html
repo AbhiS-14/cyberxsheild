@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile(CyberXSheild)</title>
+    <link rel="stylesheet" href="./css/login.css">
+      <link rel="icon" href="./image and logos/(CyberXSheild) logo.png">
+</head>
+<body>
+    <div class="container">
+
+    <!-- Login Form -->
+    <div id="loginBox">
+        <h1>Login</h1>
+
+       <label> Username:</label>
+        <input type="text" id="user"><br><br>
+
+        <label > Password:</label>
+        <input type="password" id="pass"><br><br>
+
+        <button onclick="login()">Login</button>
+
+        <br><br>
+
+        <a href="#" onclick="showRegister()">Create Account</a>
+           <a href="#" onclick="reset()">Resert Password</a>
+    </div>
+
+    <!-- Register Form -->
+    <div id="registerBox" style="display:none;">
+        <h1>Create Account</h1>
+
+       <label> Username:</label> 
+        <input type="text" id="newUser"><br><br>
+
+       <label> Password:</label> 
+        <input type="password" id="newpass"><br><br>
+
+      <label> Confirm Password:</label> 
+        <input type="password" id="confirmpass"><br><br>
+            <div>
+        <label> Full Name:</label>
+        <input type="text" id="names" placeholder="Enter your full name">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Email:</label>
+        <input type="email" id="emails" placeholder="Enter your email">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Mobile Number:</label>
+        <input type="tel" id="mobiles" placeholder="Enter your mobile number">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Age:</label>
+        <input type="number" id="ages" min="10" max="100" placeholder="Enter your age">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Gender:</label>
+        <select id="genders">
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <label>College/School:</label>
+        <input type="text" id="colleges" placeholder="Enter college name">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Course:</label>
+        <input type="text" id="courses" placeholder="e.g. B.Tech CSE">
+    </div>
+
+    <br>
+
+    <div>
+        <label>State:</label>
+        <input type="text" id="states" placeholder="Enter your State">
+    </div>
+
+    <br>
+    
+    <div>
+        <label>City:</label>
+        <input type="text" id="citys" placeholder="Enter your city">
+    </div>
+
+    <br>
+
+        <button onclick="create()">Create Account</button>
+
+        <br><br>
+
+
+    </div>
+    <div id="resetBox" style="display:none;">
+    <h1>Reset Password</h1>
+
+    Username:
+    <input type="text" id="resetUser"><br><br>
+
+    New Password:
+    <input type="password" id="resetPass"><br><br>
+
+    Confirm Password:
+    <input type="password" id="resetConfirm"><br><br>
+
+    <button onclick="resetPassword()">Reset Password</button>
+
+    <br><br>
+
+  
+</div>
+<div id="Profile" style="display: none;">
+<h1>User Profile</h1>
+
+    <p><b>Username:</b> <span id="puser"></span></p>
+    <p><b>Full Name:</b> <span id="pname"></span></p>
+    <p><b>Email:</b> <span id="pemail"></span></p>
+    <p><b>Mobile:</b> <span id="pmobile"></span></p>
+    <p><b>Age:</b> <span id="page"></span></p>
+    <p><b>Gender:</b> <span id="pgender"></span></p>
+    <p><b>College:</b> <span id="pcollege"></span></p>
+    <p><b>Course:</b> <span id="pcourse"></span></p>
+    <p><b>State:</b> <span id="pstate"></span></p>
+    <p><b>City:</b> <span id="pcity"></span></p>
+    <button onclick="logout()">Logout</button>
+    <button onclick="home()">Home</button>
+</div>
+</div>
+    
+</body>
+<script src="./java/login.js"></script>
+</html>

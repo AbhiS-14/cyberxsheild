@@ -243,6 +243,10 @@ body.light-mode #result a:hover
     align-items:center;
  
 }
+.userss:hover{
+    transform: translateY(-10px);
+    border: 0.5px,solid,rgb(73, 68, 68);
+}
 
 .userss h1{
     font-size:42px;
@@ -257,7 +261,7 @@ body.light-mode #result a:hover
 /* Last Apperance Before FAQ Anf Footer */
 
 .last{
-
+  
      width:100%;
     display:flex;
     justify-content:space-evenly;
@@ -277,6 +281,10 @@ body.light-mode #result a:hover
     align-items:center;
  
 
+}
+.laste:hover{
+    transform: translateY(-10px);
+        border: 0.5px,solid,rgb(73, 68, 68);
 }
 .laste h1{
     font-size:35px;
@@ -333,4 +341,5 @@ body.light-mode #result a:hover
     font-size: 15px;
     letter-spacing: 0.5px;
 }
+
 

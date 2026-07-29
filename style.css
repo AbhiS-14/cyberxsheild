@@ -266,12 +266,11 @@ body.light-mode #result a:hover
     display:flex;
     justify-content:space-evenly;
     align-items:center;
-    padding:40px ;
     box-sizing:border-box;
 }
 .laste
 {
-      width:300px;
+      width:200px;
     height:200px;
     background:#0d1f38;
     border-radius:12px;

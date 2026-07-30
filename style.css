@@ -420,5 +420,90 @@ body.light-mode #result a:hover{
     color:#bfbfbf;
     font-size:15px;
 }
+body.dark-mode .cta
+{
+        background:#1d1d1d;
+}
+body.matrix-mode .cta
+{
+       background:#2c322d;
+}
+
+body.light-mode .cta
+{
+         background:whitesmoke;
+}
+
+.cta{
+    width:90%;
+    margin:70px auto;
+    padding:60px 30px;
+    text-align:center;
+    background:linear-gradient(135deg,#1E90FF,#0d1f38);
+    border-radius:20px;
+}
+
+.cta h1{
+    font-size:45px;
+    color:white;
+}
+
+.cta p{
+    max-width:700px;
+    margin:20px auto;
+    line-height:1.8;
+    color:white;
+}
+body.dark-mode .threat-card
+{
+        background:#1d1d1d;
+}
+body.matrix-mode .threat-card
+{
+       background:#2c322d;
+}
+
+body.light-mode .threat-card
+{
+         background:whitesmoke;
+}
+
+.threats{
+    width:100%;
+    padding:60px 8%;
+    text-align:center;
+}
+
+.threats h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.threat-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.threat-card{
+    background:#0d1f38;
+    padding:30px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.threat-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px red;
+}
+
+.threat-card h1{
+    font-size:50px;
+}
+
+.threat-card h3{
+    color:#ff4d4d;
+    margin:15px 0;
+}
 
 

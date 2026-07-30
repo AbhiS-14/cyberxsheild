@@ -286,12 +286,11 @@ body.light-mode #result a:hover{
 }
 
 .userss{
-    width:250px;
-    min-height:150px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:25px;
     background:#0d1f38;
     border-radius:12px;
-    display:flex;
-    flex-direction:column;
     justify-content:center;
     align-items:center;
     text-align:center;
@@ -329,13 +328,12 @@ body.light-mode #result a:hover{
 }
 
 .laste{
-    width:250px;
-    min-height:220px;
+   display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:25px;
     background:#0d1f38;
     border-radius:12px;
     padding:20px;
-    display:flex;
-    flex-direction:column;
     justify-content:center;
     align-items:center;
     text-align:center;
@@ -432,6 +430,7 @@ body.matrix-mode .cta
 body.light-mode .cta
 {
          background:whitesmoke;
+   color:black;
 }
 
 .cta{
@@ -466,6 +465,7 @@ body.matrix-mode .threat-card
 body.light-mode .threat-card
 {
          background:whitesmoke;
+    color:black;
 }
 
 .threats{
@@ -517,6 +517,7 @@ body.matrix-mode .daily-tip
 body.light-mode .daily-tip
 {
          background:whitesmoke;
+    color:black;
 }
 .daily-tip{
     width:90%;
@@ -548,6 +549,7 @@ body.matrix-mode .quick-card
 body.light-mode .quick-card
 {
          background:whitesmoke;
+    color:black;
 }
 .quick-access{
     width:100%;

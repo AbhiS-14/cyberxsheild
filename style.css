@@ -421,7 +421,7 @@ body.light-mode #result a:hover{
 body.dark-mode .cta
 {
         background:#1d1d1d;
-   color:black;
+
 }
 body.matrix-mode .cta
 {
@@ -433,7 +433,16 @@ body.light-mode .cta
          background:whitesmoke;
    color:black;
 }
-
+body.light-mode .cta h1
+{
+         background:whitesmoke;
+   color:black;
+}
+body.light-mode .cta p
+{
+         background:whitesmoke;
+   color:black;
+}
 .cta{
     width:90%;
     margin:70px auto;

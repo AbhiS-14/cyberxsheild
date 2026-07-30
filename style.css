@@ -289,7 +289,7 @@ body.light-mode #result a:hover{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
     gap:25px;
-  background:#0d1f38;
+     background:#0d1f38;
     border-radius:12px;
     justify-content:center;
     align-items:center;
@@ -331,7 +331,7 @@ body.light-mode #result a:hover{
    display:grid;
     grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
     gap:25px;
-  background:#0d1f38;
+      background:#0d1f38;
     border-radius:12px;
     padding:20px;
     justify-content:center;

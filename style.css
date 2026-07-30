@@ -505,5 +505,91 @@ body.light-mode .threat-card
     color:#ff4d4d;
     margin:15px 0;
 }
+body.dark-mode .daily-tip
+{
+        background:#1d1d1d;
+}
+body.matrix-mode .daily-tip
+{
+       background:#2c322d;
+}
 
+body.light-mode .daily-tip
+{
+         background:whitesmoke;
+}
+.daily-tip{
+    width:90%;
+    margin:50px auto;
+    background:#102a43;
+    padding:35px;
+    border-left:5px solid #1E90FF;
+    border-radius:12px;
+    text-align:center;
+}
+
+.daily-tip h2{
+    color:#1E90FF;
+    margin-bottom:15px;
+}
+
+.daily-tip p{
+    line-height:1.8;
+}
+body.dark-mode .quick-card
+{
+        background:#1d1d1d;
+}
+body.matrix-mode .quick-card
+{
+       background:#2c322d;
+}
+
+body.light-mode .quick-card
+{
+         background:whitesmoke;
+}
+.quick-access{
+    width:100%;
+    padding:60px 8%;
+    text-align:center;
+}
+
+.quick-access h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.quick-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:25px;
+}
+
+.quick-card{
+    background:#0d1f38;
+    color:white;
+    text-decoration:none;
+    padding:30px 20px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.quick-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px #1E90FF;
+}
+
+.quick-card h1{
+    font-size:50px;
+}
+
+.quick-card h3{
+    color:#1E90FF;
+    margin:15px 0;
+}
+
+.quick-card p{
+    line-height:1.6;
+}
 
